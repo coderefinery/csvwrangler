@@ -4,6 +4,10 @@ import sys
 from base_functions import extract_csv_column
 from statistics import mean
 
+# argparse would be an excellent library for command line parsing and it would
+# even make for a more compact intro but again, cognitive load is pretty
+# awesome even without introducing yet another library
+
 
 def main():
     if len(sys.argv) < 3:

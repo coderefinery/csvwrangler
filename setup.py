@@ -69,7 +69,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'csvmean=csvwrangler.run_mean:main',
+            'csvmean=csvwrangler.compute_mean:main',
         ],
     },
 )

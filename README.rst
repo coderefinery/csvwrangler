@@ -33,4 +33,12 @@ To run tests run::
 This will run code style tests and unit tests against chosen Python versions
 (2.7 and 3.5, see tox.ini).
 
+Installing
+----------
 
+If you want to just try installing this package, you can install it directly
+from GitHub::
+
+        pip install git+https://github.com/coderefinery/csvwrangler@master
+
+You can change the @master to point to some other branch or tag.

@@ -9,6 +9,11 @@ except ImportError:
 
 
 class TestBaseFunctions(unittest.TestCase):
+    """ Advanced testing functionality. Might not have time to talk about
+    patching or mocking too much.
+
+    ToDo: add an example or two about using mock
+    """
 
     @patch("csvwrangler.base_functions.extract_csv_column_by_name")
     def test_read_base(self, patched_function):

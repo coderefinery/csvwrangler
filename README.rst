@@ -17,7 +17,8 @@ The library has been put into a Python module that also contains one runner
 script. Other parts of the library can be reused to extend the functionality
 in one way or another.
 
-Docstrings could be improved on to be of a higher quality.
+Docstrings could be improved on to make this an example about documenting a
+project using Sphinx.
 
 This can be the goal of several days of working on the same project.
 Alternatively it can be expaned upon as an example.
@@ -29,6 +30,7 @@ To run tests run::
 
         $ tox
 
-This will run code style tests
+This will run code style tests and unit tests against chosen Python versions
+(2.7 and 3.5, see tox.ini).
 
 
